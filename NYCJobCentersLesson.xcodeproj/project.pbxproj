@@ -15,6 +15,8 @@
 		81FA79B52373A59300A0451F /* JobCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA79B42373A59300A0451F /* JobCenter.swift */; };
 		81FA79B72373AAA200A0451F /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA79B62373AAA200A0451F /* AppError.swift */; };
 		81FA79B92373B7DD00A0451F /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA79B82373B7DD00A0451F /* MainVC.swift */; };
+		81FA79BB2373C25A00A0451F /* JobCenterAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA79BA2373C25A00A0451F /* JobCenterAPIClient.swift */; };
+		81FA79BD2373C2E200A0451F /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FA79BC2373C2E200A0451F /* NetworkHelper.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +42,8 @@
 		81FA79B42373A59300A0451F /* JobCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCenter.swift; sourceTree = "<group>"; };
 		81FA79B62373AAA200A0451F /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
 		81FA79B82373B7DD00A0451F /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		81FA79BA2373C25A00A0451F /* JobCenterAPIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobCenterAPIClient.swift; sourceTree = "<group>"; };
+		81FA79BC2373C2E200A0451F /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +93,8 @@
 				81FA79B42373A59300A0451F /* JobCenter.swift */,
 				81FA79B62373AAA200A0451F /* AppError.swift */,
 				81FA79B82373B7DD00A0451F /* MainVC.swift */,
+				81FA79BA2373C25A00A0451F /* JobCenterAPIClient.swift */,
+				81FA79BC2373C2E200A0451F /* NetworkHelper.swift */,
 			);
 			path = NYCJobCentersLesson;
 			sourceTree = "<group>";
@@ -202,10 +208,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81FA79BD2373C2E200A0451F /* NetworkHelper.swift in Sources */,
 				81FA79932373A1B300A0451F /* AppDelegate.swift in Sources */,
 				81FA79B92373B7DD00A0451F /* MainVC.swift in Sources */,
 				81FA79B72373AAA200A0451F /* AppError.swift in Sources */,
 				81FA79B52373A59300A0451F /* JobCenter.swift in Sources */,
+				81FA79BB2373C25A00A0451F /* JobCenterAPIClient.swift in Sources */,
 				81FA79952373A1B300A0451F /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
